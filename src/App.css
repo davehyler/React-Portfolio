@@ -1,0 +1,165 @@
+.background 
+{
+  background-color: #7d8883;
+  min-height: 100vh;
+  width: 100%;
+}
+
+* 
+{
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  color: #eeeff4;
+}
+
+
+.navigation 
+{
+  padding: 42px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 4px solid #3D405B;
+  border-right: 4px solid #3D405B;
+  border-radius: 4px;
+  background-color: rgb(60, 93, 183);
+  font-size: 42px;  
+  justify-content: center;
+}
+
+.navigation .links 
+{
+  padding: 4px;
+  align-items: center;
+}
+
+.navigation a 
+{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navigation a:hover 
+{
+  color: #06e8f8;
+  cursor: pointer;
+}
+
+
+
+
+.home 
+{
+  max-width: 1920px;
+  margin: 42px auto;
+  padding: 42px;
+}
+
+.about 
+{
+  flex-wrap: wrap;
+  max-width: 1920px;
+  margin: 42px auto;
+  padding: 42px;
+}
+
+.portfolio 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 42px;
+}
+
+.portfolio h2 
+{
+  color: white;
+  background-color: #3D405B;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: 80%;
+  justify-content: center;
+}
+
+.contact 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.footer 
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(60, 93, 183);
+  font-family: "Quicksand", sans-serif;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer a 
+{
+  text-decoration: none;
+  color: #3D405B;
+  font-weight: bold;
+}
+
+.footer a:hover 
+{
+  color: #3D405B;
+}
+
+
+
+
+form 
+{
+  max-width: 442px;
+  padding: 42px 42px 42px;
+  border-style:dotted;
+  color: #333;
+  background-color: #378dd8;
+  font-size: larger;  
+  box-shadow: 0 0 142px #000000;
+}
+
+form button 
+{
+  width: 100%;
+  height: 42px;
+  background: #5f4ef1;
+  border-radius: 26px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  align-items: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+form button:hover 
+{
+  background: #F2CC8F;
+}
+
+.input-box .input 
+{
+  width: 95%;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  padding: 18px;
+  font-size: 18px;
+  background-color:#ffffff;
+  margin-top: 8px;
+  margin-bottom: 26px;
+}
